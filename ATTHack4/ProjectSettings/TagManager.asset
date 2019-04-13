@@ -4,13 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Object
-  - Camera
-  - Collide
-<<<<<<< HEAD
-  - playerTag
-=======
->>>>>>> dccf529c00ecc9133c45303ac0b719b108fd714b
+  - nameCard
   layers:
   - Default
   - TransparentFX
@@ -20,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - Walkable
+  - 
+  - 
   - 
   - 
   - 
