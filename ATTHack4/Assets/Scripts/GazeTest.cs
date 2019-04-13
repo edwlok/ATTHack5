@@ -39,6 +39,7 @@ public class GazeTest : MonoBehaviour
                 if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
                 {
                     this.transform.position = hit.transform.position;
+                    this.transform.rotation = hit.transform.rotation;
                 }
                 // Do stuff
             }
