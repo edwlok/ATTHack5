@@ -44,6 +44,16 @@ public class GazeTest : MonoBehaviour
                 }
                 // Do stuff
             }
+
+            if (hit.collider.tag == "Player")
+            {
+                if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    MeshRenderer temp = this.transform.Find("NameCard").GetComponent<MeshRenderer>();
+                    temp.enabled = true;
+                }
+                // Do stuff
+            }
         }
     }
 }
