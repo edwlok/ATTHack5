@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace RPGCharacterAnims
 {
-    public class CharacterAttack  : MonoBehaviour
+    public class CharacterAttack : MonoBehaviour
     {
 
         RPGCharacterControllerFREE rpgCharacterController;
@@ -12,13 +12,13 @@ namespace RPGCharacterAnims
         // Start is called before the first frame update
         void Start()
         {
-            InvokeRepeating("Attack", 1f, 4.25f);
+            InvokeRepeating("Attack", 1f, 2.5f);
             rpgCharacterController = GetComponent<RPGCharacterControllerFREE>();
         }
 
         void Attack()
         {
-            rpgCharacterController.GetHit();    
+            rpgCharacterController.AttackKick(1);
 
         }
 
