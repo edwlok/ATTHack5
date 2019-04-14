@@ -12,7 +12,7 @@ namespace RPGCharacterAnims
         // Start is called before the first frame update
         void Start()
         {
-            InvokeRepeating("Attack", 1f, 1.5f);
+            InvokeRepeating("Attack", 1f, Random.Range(0.25f, 5f));
             rpgCharacterController = GetComponent<RPGCharacterControllerFREE>();
         }
 
