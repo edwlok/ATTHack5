@@ -39,6 +39,7 @@ public class GazeTest : MonoBehaviour
                 if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
                 {
                     this.transform.position = hit.transform.position;
+                    this.GetComponent<AudioSource>().Play(0);
                     if (hit.transform.gameObject.name != "MiddleLocation")
                     {
                         this.transform.LookAt(GameObject.Find("MiddleSword").transform);
