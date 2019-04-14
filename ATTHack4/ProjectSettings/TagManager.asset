@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - nameCard
+  - Camera
+  - Map
+  - Map1
+  - Map2
+  - Map3
+  - Map4
   layers:
   - Default
   - TransparentFX

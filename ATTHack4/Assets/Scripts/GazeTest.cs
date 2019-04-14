@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GazeTest : MonoBehaviour
 {
@@ -57,6 +58,38 @@ public class GazeTest : MonoBehaviour
                     temp.enabled = true;
                 }
                 // Do stuff
+            }
+            
+            if (hit.collider.tag == "Map1")
+            {
+                if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene(hit.collider.tag);
+                }
+            }
+
+            if (hit.collider.tag == "Map2")
+            {
+                if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene(hit.collider.tag);
+                }
+            }
+
+            if (hit.collider.tag == "Map3")
+            {
+                if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene(hit.collider.tag);
+                }
+            }
+
+            if (hit.collider.tag == "Map4")
+            {
+                if (OVRInput.Get(OVRInput.Button.One) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+                {
+                    SceneManager.LoadScene(hit.collider.tag);
+                }
             }
         }
     }
