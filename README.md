@@ -11,3 +11,6 @@ When you put the headset on you'll see our mockup. Imagine a live league of lege
 Around the arena you'll see panels with live stream commentators, player cams, player messages; this is the content already available. Also, we wanted to give fans the feeling that they were at a live torunament event. So on the wall you can see a map of the event space, click on the markers to launch live 360 feeds of that space. Imagine those cameras in the stands, on the stage, etc.
 
 Now our prototype embeds much of this content in the app but with the advent of 5G we could live stream that content to the fans. In particular, we hope to stream positional data from within the game, 4k video and 360 video of the event.
+
+![SpectateXR1](https://user-images.githubusercontent.com/25308722/56099798-77ebfa00-5ec6-11e9-822b-f5646b684ec6.PNG)
+
